@@ -17,7 +17,7 @@ ul {
   align-items: center;
   height: 100vh;
   margin: 0;
-  padding: 0; 
+  padding: 0;
 }
 
 ul li {
@@ -30,10 +30,14 @@ ul li {
 }
 
 @keyframes grow {
-  0% ,
-  40% ,
-  100% { transform:scale(0.2); }
-  20% { transform:scale(1); }
+  0%,
+  40%,
+  100% {
+    transform: scale(0.2);
+  }
+  20% {
+    transform: scale(1);
+  }
 }
 
 ul li:nth-child(1) {
@@ -64,7 +68,6 @@ ul li:nth-child(5) {
   animation-delay: -0.6s;
   background: #ba68c8;
   box-shadow: 0 0 50px #ba68c8;
-  
 }
 ul li:nth-child(6) {
   animation-delay: -0.4s;
